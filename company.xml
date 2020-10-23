@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="community.xsl"?>
+<?xml-stylesheet type="text/xsl" href="company.xsl"?>
 <Company
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="company.xsd">
@@ -28,7 +28,7 @@ xsi:noNamespaceSchemaLocation="company.xsd">
         <Emp-name>Julie</Emp-name>
         <Emp-age>25</Emp-age>
         <Emp-salary>Rs 55467</Emp-salary>
-        <Emp-emailid>juie@company.com</Emp-emailid>
+        <Emp-emailid>julie@company.com</Emp-emailid>
         <Emp-Phonenum>9876543210</Emp-Phonenum>
         <Emp-designation>Intern</Emp-designation>
         <Emp-promotion></Emp-promotion>

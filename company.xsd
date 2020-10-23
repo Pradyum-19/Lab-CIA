@@ -30,4 +30,5 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
-</xs:element>undefined</xs:schema>
+</xs:element>
+</xs:schema>

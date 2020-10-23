@@ -14,6 +14,7 @@
                         <th>Email</th>
                         <th>MobNum</th>
                         <th>Designation</th>
+                        <th>Promotion</th>
                     </tr>
                     <xsl:for-each select="Company/Employee">
                         <tr>
