@@ -19,7 +19,7 @@
                     <xsl:for-each select="Company/Employee">
                         <tr>
                             <td>
-                                <xsl:value-of select="Emp-ID"/>
+                                <xsl:value-of select="@ID"/>
                             </td>
                             <td>
                                 <xsl:value-of select="Emp-name"/>
@@ -39,9 +39,19 @@
                             <td>
                                 <xsl:value-of select="Emp-designation"/>
                             </td>
-                            <td>
-                                <xsl:value-of select="Emp-promotion"/>
-                            </td>
+                            <xsl:choose>
+      								<xsl:when test="Age &gt; 49">
+         								<td>Associate Project Manager</td>
+      								</xsl:when>
+      								<xsl:when test="Age &gt; 40">
+         								<td >Team Leader</td>
+      								</xsl:when>
+      								<xsl:when test="Age &lt; 40">
+         								<td >Developer</td>
+      								</xsl:when>
+							      	<xsl:otherwise>
+							      	</xsl:otherwise>
+							</xsl:choose>
                         </tr>
                     </xsl:for-each>
                 </table>

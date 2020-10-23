@@ -3,34 +3,28 @@
 <Company
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="company.xsd">
-    <Employee>
-        <Emp-ID>1</Emp-ID>
+    <Employee ID="1">
         <Emp-name>John</Emp-name>
         <Emp-age>33</Emp-age>
         <Emp-salary>Rs 65997</Emp-salary>
         <Emp-emailid>john@company.com</Emp-emailid>
         <Emp-Phonenum>8778787673</Emp-Phonenum>
         <Emp-designation>CEO</Emp-designation>
-        <Emp-promotion></Emp-promotion>
     </Employee>
-    <Employee>
-        <Emp-ID>2</Emp-ID>
+    <Employee ID="2">
         <Emp-name>Jacon</Emp-name>
         <Emp-age>28</Emp-age>
         <Emp-salary>Rs 58999</Emp-salary>
         <Emp-emailid>jacob@company.com</Emp-emailid>
         <Emp-Phonenum>998877665544</Emp-Phonenum>
         <Emp-designation>SEO</Emp-designation>
-        <Emp-promotion></Emp-promotion>
     </Employee>
-    <Employee>
-        <Emp-ID>3</Emp-ID>
+    <Employee ID="3">
         <Emp-name>Julie</Emp-name>
         <Emp-age>25</Emp-age>
         <Emp-salary>Rs 55467</Emp-salary>
         <Emp-emailid>julie@company.com</Emp-emailid>
         <Emp-Phonenum>9876543210</Emp-Phonenum>
         <Emp-designation>Intern</Emp-designation>
-        <Emp-promotion></Emp-promotion>
     </Employee>
 </Company> 
