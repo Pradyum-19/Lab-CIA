@@ -24,13 +24,13 @@
             var i;
             var xmlDoc=xml.responseXML;
             var t="<tr><th>Student Name</th><th>College</th></tr>";
-            var x=xmlDoc.getElementsByTagName("reg");
+            var x=xmlDoc.getElementsByTagName("CS");
             for(i=0;i<x.length;i++)
             {
                 t +="<tr><td>" +
                 x[i].getElementsByTagName("STU-NAME")[0].childNodes[0].nodeValue +
                 "</td><td>" +
-                x[i].getElementsByTagName("STU-EMAIL")[0].childNodes[0].nodeValue +
+                x[i].getElementsByTagName("STU-COLLEGE")[0].childNodes[0].nodeValue +
                 "</td></tr>";
             }
             document.getElementById("reg").innerHTML=t;
