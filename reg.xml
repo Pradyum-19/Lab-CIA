@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="reg.xsl"?>
+ <com xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="reg.xsd">
+  <Christ> 
+    <CS>
+    <STU-NAME>Adarsh</STU-NAME> 
+    <STU-BRANCH>MCA</STU-BRANCH>
+    <STU-COLLEGE>Christ</STU-COLLEGE>
+    <STU-EMAIL>name@email.com</STU-EMAIL>
+  </CS>
+  <CS>
+    <STU-NAME>Pradyum</STU-NAME> 
+    <STU-BRANCH>MCA</STU-BRANCH>
+    <STU-COLLEGE>Christ</STU-COLLEGE>
+    <STU-EMAIL>name@email.com</STU-EMAIL>
+  </CS>
+  <CS>
+    <STU-NAME>Rahul</STU-NAME> 
+    <STU-BRANCH>MCA</STU-BRANCH>
+    <STU-COLLEGE>Christ</STU-COLLEGE>
+    <STU-EMAIL>name@email.com</STU-EMAIL>
+  </CS>
+  </Christ>
+ 
